@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3454E85129783EFE001CF325 /* AiachyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3454E85029783EFE001CF325 /* AiachyApp.swift */; };
+		3454E85329783EFE001CF325 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3454E85229783EFE001CF325 /* ContentView.swift */; };
+		3454E85529783EFF001CF325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3454E85429783EFF001CF325 /* Assets.xcassets */; };
+		3454E85829783EFF001CF325 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3454E85729783EFF001CF325 /* Preview Assets.xcassets */; };
+		3454E86229783EFF001CF325 /* AiachyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3454E86129783EFF001CF325 /* AiachyTests.swift */; };
+		3454E86C29783EFF001CF325 /* AiachyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3454E86B29783EFF001CF325 /* AiachyUITests.swift */; };
+		3454E86E29783EFF001CF325 /* AiachyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3454E86D29783EFF001CF325 /* AiachyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3454E85E29783EFF001CF325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3454E84529783EFE001CF325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3454E84C29783EFE001CF325;
+			remoteInfo = Aiachy;
+		};
+		3454E86829783EFF001CF325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3454E84529783EFE001CF325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3454E84C29783EFE001CF325;
+			remoteInfo = Aiachy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3454E84D29783EFE001CF325 /* Aiachy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aiachy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3454E85029783EFE001CF325 /* AiachyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiachyApp.swift; sourceTree = "<group>"; };
+		3454E85229783EFE001CF325 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3454E85429783EFF001CF325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3454E85729783EFF001CF325 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3454E85D29783EFF001CF325 /* AiachyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AiachyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3454E86129783EFF001CF325 /* AiachyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiachyTests.swift; sourceTree = "<group>"; };
+		3454E86729783EFF001CF325 /* AiachyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AiachyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3454E86B29783EFF001CF325 /* AiachyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiachyUITests.swift; sourceTree = "<group>"; };
+		3454E86D29783EFF001CF325 /* AiachyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiachyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3454E84A29783EFE001CF325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3454E85A29783EFF001CF325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3454E86429783EFF001CF325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3454E84429783EFE001CF325 = {
+			isa = PBXGroup;
+			children = (
+				3454E84F29783EFE001CF325 /* Aiachy */,
+				3454E86029783EFF001CF325 /* AiachyTests */,
+				3454E86A29783EFF001CF325 /* AiachyUITests */,
+				3454E84E29783EFE001CF325 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3454E84E29783EFE001CF325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3454E84D29783EFE001CF325 /* Aiachy.app */,
+				3454E85D29783EFF001CF325 /* AiachyTests.xctest */,
+				3454E86729783EFF001CF325 /* AiachyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3454E84F29783EFE001CF325 /* Aiachy */ = {
+			isa = PBXGroup;
+			children = (
+				3454E85029783EFE001CF325 /* AiachyApp.swift */,
+				3454E85229783EFE001CF325 /* ContentView.swift */,
+				3454E85429783EFF001CF325 /* Assets.xcassets */,
+				3454E85629783EFF001CF325 /* Preview Content */,
+			);
+			path = Aiachy;
+			sourceTree = "<group>";
+		};
+		3454E85629783EFF001CF325 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3454E85729783EFF001CF325 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3454E86029783EFF001CF325 /* AiachyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3454E86129783EFF001CF325 /* AiachyTests.swift */,
+			);
+			path = AiachyTests;
+			sourceTree = "<group>";
+		};
+		3454E86A29783EFF001CF325 /* AiachyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3454E86B29783EFF001CF325 /* AiachyUITests.swift */,
+				3454E86D29783EFF001CF325 /* AiachyUITestsLaunchTests.swift */,
+			);
+			path = AiachyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3454E84C29783EFE001CF325 /* Aiachy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3454E87129783EFF001CF325 /* Build configuration list for PBXNativeTarget "Aiachy" */;
+			buildPhases = (
+				3454E84929783EFE001CF325 /* Sources */,
+				3454E84A29783EFE001CF325 /* Frameworks */,
+				3454E84B29783EFE001CF325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aiachy;
+			productName = Aiachy;
+			productReference = 3454E84D29783EFE001CF325 /* Aiachy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3454E85C29783EFF001CF325 /* AiachyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3454E87429783EFF001CF325 /* Build configuration list for PBXNativeTarget "AiachyTests" */;
+			buildPhases = (
+				3454E85929783EFF001CF325 /* Sources */,
+				3454E85A29783EFF001CF325 /* Frameworks */,
+				3454E85B29783EFF001CF325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3454E85F29783EFF001CF325 /* PBXTargetDependency */,
+			);
+			name = AiachyTests;
+			productName = AiachyTests;
+			productReference = 3454E85D29783EFF001CF325 /* AiachyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3454E86629783EFF001CF325 /* AiachyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3454E87729783EFF001CF325 /* Build configuration list for PBXNativeTarget "AiachyUITests" */;
+			buildPhases = (
+				3454E86329783EFF001CF325 /* Sources */,
+				3454E86429783EFF001CF325 /* Frameworks */,
+				3454E86529783EFF001CF325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3454E86929783EFF001CF325 /* PBXTargetDependency */,
+			);
+			name = AiachyUITests;
+			productName = AiachyUITests;
+			productReference = 3454E86729783EFF001CF325 /* AiachyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3454E84529783EFE001CF325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3454E84C29783EFE001CF325 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3454E85C29783EFF001CF325 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3454E84C29783EFE001CF325;
+					};
+					3454E86629783EFF001CF325 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3454E84C29783EFE001CF325;
+					};
+				};
+			};
+			buildConfigurationList = 3454E84829783EFE001CF325 /* Build configuration list for PBXProject "Aiachy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3454E84429783EFE001CF325;
+			productRefGroup = 3454E84E29783EFE001CF325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3454E84C29783EFE001CF325 /* Aiachy */,
+				3454E85C29783EFF001CF325 /* AiachyTests */,
+				3454E86629783EFF001CF325 /* AiachyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3454E84B29783EFE001CF325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3454E85829783EFF001CF325 /* Preview Assets.xcassets in Resources */,
+				3454E85529783EFF001CF325 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3454E85B29783EFF001CF325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3454E86529783EFF001CF325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3454E84929783EFE001CF325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3454E85329783EFE001CF325 /* ContentView.swift in Sources */,
+				3454E85129783EFE001CF325 /* AiachyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3454E85929783EFF001CF325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3454E86229783EFF001CF325 /* AiachyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3454E86329783EFF001CF325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3454E86C29783EFF001CF325 /* AiachyUITests.swift in Sources */,
+				3454E86E29783EFF001CF325 /* AiachyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3454E85F29783EFF001CF325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3454E84C29783EFE001CF325 /* Aiachy */;
+			targetProxy = 3454E85E29783EFF001CF325 /* PBXContainerItemProxy */;
+		};
+		3454E86929783EFF001CF325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3454E84C29783EFE001CF325 /* Aiachy */;
+			targetProxy = 3454E86829783EFF001CF325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3454E86F29783EFF001CF325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3454E87029783EFF001CF325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3454E87229783EFF001CF325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aiachy/Preview Content\"";
+				DEVELOPMENT_TEAM = MW2482B7WH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NomoSiOS.Aiachy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3454E87329783EFF001CF325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aiachy/Preview Content\"";
+				DEVELOPMENT_TEAM = MW2482B7WH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NomoSiOS.Aiachy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3454E87529783EFF001CF325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW2482B7WH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NomoSiOS.AiachyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aiachy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aiachy";
+			};
+			name = Debug;
+		};
+		3454E87629783EFF001CF325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW2482B7WH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NomoSiOS.AiachyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aiachy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aiachy";
+			};
+			name = Release;
+		};
+		3454E87829783EFF001CF325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW2482B7WH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NomoSiOS.AiachyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aiachy;
+			};
+			name = Debug;
+		};
+		3454E87929783EFF001CF325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW2482B7WH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NomoSiOS.AiachyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aiachy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3454E84829783EFE001CF325 /* Build configuration list for PBXProject "Aiachy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3454E86F29783EFF001CF325 /* Debug */,
+				3454E87029783EFF001CF325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3454E87129783EFF001CF325 /* Build configuration list for PBXNativeTarget "Aiachy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3454E87229783EFF001CF325 /* Debug */,
+				3454E87329783EFF001CF325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3454E87429783EFF001CF325 /* Build configuration list for PBXNativeTarget "AiachyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3454E87529783EFF001CF325 /* Debug */,
+				3454E87629783EFF001CF325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3454E87729783EFF001CF325 /* Build configuration list for PBXNativeTarget "AiachyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3454E87829783EFF001CF325 /* Debug */,
+				3454E87929783EFF001CF325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3454E84529783EFE001CF325 /* Project object */;
+}
