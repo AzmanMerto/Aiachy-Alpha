@@ -94,6 +94,11 @@
 		3454E84F29783EFE001CF325 /* Aiachy */ = {
 			isa = PBXGroup;
 			children = (
+				3454E8892979C899001CF325 /* View */,
+				3454E8882979C890001CF325 /* Interactor */,
+				3454E8872979C87C001CF325 /* Presenter */,
+				3454E8862979C877001CF325 /* Entity */,
+				3454E8852979C872001CF325 /* Router */,
 				3454E85029783EFE001CF325 /* AiachyApp.swift */,
 				3454E85229783EFE001CF325 /* ContentView.swift */,
 				3454E85429783EFF001CF325 /* Assets.xcassets */,
@@ -125,6 +130,41 @@
 				3454E86D29783EFF001CF325 /* AiachyUITestsLaunchTests.swift */,
 			);
 			path = AiachyUITests;
+			sourceTree = "<group>";
+		};
+		3454E8852979C872001CF325 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		3454E8862979C877001CF325 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		3454E8872979C87C001CF325 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3454E8882979C890001CF325 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		3454E8892979C899001CF325 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
