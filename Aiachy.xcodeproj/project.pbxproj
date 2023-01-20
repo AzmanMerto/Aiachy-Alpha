@@ -21,6 +21,7 @@
 		3454E8942979DBFE001CF325 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3454E8932979DBFE001CF325 /* FirebaseFirestoreSwift */; };
 		3454E8962979DBFE001CF325 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 3454E8952979DBFE001CF325 /* FirebaseMessaging */; };
 		3454E8982979DBFE001CF325 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3454E8972979DBFE001CF325 /* FirebaseStorage */; };
+		34F6D003297B277400E29F40 /* SetImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F6D002297B277400E29F40 /* SetImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3454E86729783EFF001CF325 /* AiachyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AiachyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3454E86B29783EFF001CF325 /* AiachyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiachyUITests.swift; sourceTree = "<group>"; };
 		3454E86D29783EFF001CF325 /* AiachyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiachyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		34F6D002297B277400E29F40 /* SetImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 		3454E8882979C890001CF325 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				34F6D001297B276600E29F40 /* SetFiles */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -177,8 +180,24 @@
 		3454E8892979C899001CF325 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3454E8992979DD30001CF325 /* Onboarding */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		3454E8992979DD30001CF325 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		34F6D001297B276600E29F40 /* SetFiles */ = {
+			isa = PBXGroup;
+			children = (
+				34F6D002297B277400E29F40 /* SetImage.swift */,
+			);
+			path = SetFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3454E85329783EFE001CF325 /* ContentView.swift in Sources */,
+				34F6D003297B277400E29F40 /* SetImage.swift in Sources */,
 				3454E85129783EFE001CF325 /* AiachyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
